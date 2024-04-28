@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2114A8EC2BD8874B0058D70B /* TenantListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2114A8E72BD8874B0058D70B /* TenantListPresenter.swift */; };
+		2114A8ED2BD8874B0058D70B /* TenantListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2114A8E82BD8874B0058D70B /* TenantListRouter.swift */; };
+		2114A8EF2BD8874B0058D70B /* TenantListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2114A8EA2BD8874B0058D70B /* TenantListProtocols.swift */; };
+		2114A8F02BD8874B0058D70B /* TenantListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2114A8EB2BD8874B0058D70B /* TenantListInteractor.swift */; };
+		2114A8FC2BD89A160058D70B /* TenantInfoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2114A8FA2BD89A160058D70B /* TenantInfoViewCell.swift */; };
+		2114A8FD2BD89A160058D70B /* TenantInfoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2114A8FB2BD89A160058D70B /* TenantInfoViewCell.xib */; };
+		2114A9072BD8C5560058D70B /* TenantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2114A9062BD8C5560058D70B /* TenantListViewController.swift */; };
+		2151DBB52BDABAE100BA56CD /* SearcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2151DBB42BDABAE100BA56CD /* SearcherView.swift */; };
 		21FEB2EA2BD77ED0003851A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FEB2E92BD77ED0003851A2 /* AppDelegate.swift */; };
 		21FEB2EC2BD77ED0003851A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FEB2EB2BD77ED0003851A2 /* SceneDelegate.swift */; };
 		21FEB2EE2BD77ED0003851A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FEB2ED2BD77ED0003851A2 /* ViewController.swift */; };
-		21FEB2F12BD77ED0003851A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FEB2EF2BD77ED0003851A2 /* Main.storyboard */; };
 		21FEB2F32BD77ED1003851A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21FEB2F22BD77ED1003851A2 /* Assets.xcassets */; };
 		21FEB2F62BD77ED1003851A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FEB2F42BD77ED1003851A2 /* LaunchScreen.storyboard */; };
+		21FEB3022BD78218003851A2 /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FEB2FD2BD78218003851A2 /* DashboardPresenter.swift */; };
+		21FEB3032BD78218003851A2 /* DashboardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FEB2FE2BD78218003851A2 /* DashboardRouter.swift */; };
+		21FEB3042BD78218003851A2 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FEB2FF2BD78218003851A2 /* DashboardViewController.swift */; };
+		21FEB3052BD78218003851A2 /* DashboardProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FEB3002BD78218003851A2 /* DashboardProtocols.swift */; };
+		21FEB3062BD78218003851A2 /* DashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FEB3012BD78218003851A2 /* DashboardInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2114A8E72BD8874B0058D70B /* TenantListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantListPresenter.swift; sourceTree = "<group>"; };
+		2114A8E82BD8874B0058D70B /* TenantListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantListRouter.swift; sourceTree = "<group>"; };
+		2114A8EA2BD8874B0058D70B /* TenantListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantListProtocols.swift; sourceTree = "<group>"; };
+		2114A8EB2BD8874B0058D70B /* TenantListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantListInteractor.swift; sourceTree = "<group>"; };
+		2114A8FA2BD89A160058D70B /* TenantInfoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantInfoViewCell.swift; sourceTree = "<group>"; };
+		2114A8FB2BD89A160058D70B /* TenantInfoViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TenantInfoViewCell.xib; sourceTree = "<group>"; };
+		2114A9062BD8C5560058D70B /* TenantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantListViewController.swift; sourceTree = "<group>"; };
+		2151DBB42BDABAE100BA56CD /* SearcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearcherView.swift; sourceTree = "<group>"; };
 		21FEB2E62BD77ED0003851A2 /* RenterMngr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RenterMngr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FEB2E92BD77ED0003851A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21FEB2EB2BD77ED0003851A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		21FEB2ED2BD77ED0003851A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		21FEB2F02BD77ED0003851A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21FEB2F22BD77ED1003851A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21FEB2F52BD77ED1003851A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21FEB2F72BD77ED1003851A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21FEB2FD2BD78218003851A2 /* DashboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPresenter.swift; sourceTree = "<group>"; };
+		21FEB2FE2BD78218003851A2 /* DashboardRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardRouter.swift; sourceTree = "<group>"; };
+		21FEB2FF2BD78218003851A2 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		21FEB3002BD78218003851A2 /* DashboardProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardProtocols.swift; sourceTree = "<group>"; };
+		21FEB3012BD78218003851A2 /* DashboardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +61,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2114A8F22BD887720058D70B /* TenantList */ = {
+			isa = PBXGroup;
+			children = (
+				2114A8F72BD887F70058D70B /* Protocols */,
+				2114A8F62BD887C20058D70B /* Router */,
+				2114A8F52BD887B90058D70B /* Interactor */,
+				2114A8F42BD887B30058D70B /* Presenter */,
+				2114A8F32BD887A40058D70B /* Views */,
+			);
+			path = TenantList;
+			sourceTree = "<group>";
+		};
+		2114A8F32BD887A40058D70B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2114A8FA2BD89A160058D70B /* TenantInfoViewCell.swift */,
+				2114A8FB2BD89A160058D70B /* TenantInfoViewCell.xib */,
+				2114A9062BD8C5560058D70B /* TenantListViewController.swift */,
+				2151DBB42BDABAE100BA56CD /* SearcherView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2114A8F42BD887B30058D70B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2114A8E72BD8874B0058D70B /* TenantListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2114A8F52BD887B90058D70B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2114A8EB2BD8874B0058D70B /* TenantListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2114A8F62BD887C20058D70B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				2114A8E82BD8874B0058D70B /* TenantListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2114A8F72BD887F70058D70B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2114A8EA2BD8874B0058D70B /* TenantListProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		21FEB2DD2BD77ED0003851A2 = {
 			isa = PBXGroup;
 			children = (
+				2114A8F22BD887720058D70B /* TenantList */,
+				21FEB2FD2BD78218003851A2 /* DashboardPresenter.swift */,
+				21FEB2FE2BD78218003851A2 /* DashboardRouter.swift */,
+				21FEB2FF2BD78218003851A2 /* DashboardViewController.swift */,
+				21FEB3002BD78218003851A2 /* DashboardProtocols.swift */,
+				21FEB3012BD78218003851A2 /* DashboardInteractor.swift */,
 				21FEB2E82BD77ED0003851A2 /* RenterMngr */,
 				21FEB2E72BD77ED0003851A2 /* Products */,
 			);
@@ -59,7 +144,6 @@
 				21FEB2E92BD77ED0003851A2 /* AppDelegate.swift */,
 				21FEB2EB2BD77ED0003851A2 /* SceneDelegate.swift */,
 				21FEB2ED2BD77ED0003851A2 /* ViewController.swift */,
-				21FEB2EF2BD77ED0003851A2 /* Main.storyboard */,
 				21FEB2F22BD77ED1003851A2 /* Assets.xcassets */,
 				21FEB2F42BD77ED1003851A2 /* LaunchScreen.storyboard */,
 				21FEB2F72BD77ED1003851A2 /* Info.plist */,
@@ -95,7 +179,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					21FEB2E52BD77ED0003851A2 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -126,8 +210,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				21FEB2F62BD77ED1003851A2 /* LaunchScreen.storyboard in Resources */,
+				2114A8FD2BD89A160058D70B /* TenantInfoViewCell.xib in Resources */,
 				21FEB2F32BD77ED1003851A2 /* Assets.xcassets in Resources */,
-				21FEB2F12BD77ED0003851A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +222,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2114A8EC2BD8874B0058D70B /* TenantListPresenter.swift in Sources */,
 				21FEB2EE2BD77ED0003851A2 /* ViewController.swift in Sources */,
+				2114A9072BD8C5560058D70B /* TenantListViewController.swift in Sources */,
+				21FEB3042BD78218003851A2 /* DashboardViewController.swift in Sources */,
+				2114A8EF2BD8874B0058D70B /* TenantListProtocols.swift in Sources */,
 				21FEB2EA2BD77ED0003851A2 /* AppDelegate.swift in Sources */,
+				21FEB3052BD78218003851A2 /* DashboardProtocols.swift in Sources */,
+				21FEB3032BD78218003851A2 /* DashboardRouter.swift in Sources */,
+				2114A8FC2BD89A160058D70B /* TenantInfoViewCell.swift in Sources */,
+				2114A8F02BD8874B0058D70B /* TenantListInteractor.swift in Sources */,
+				2114A8ED2BD8874B0058D70B /* TenantListRouter.swift in Sources */,
+				2151DBB52BDABAE100BA56CD /* SearcherView.swift in Sources */,
 				21FEB2EC2BD77ED0003851A2 /* SceneDelegate.swift in Sources */,
+				21FEB3022BD78218003851A2 /* DashboardPresenter.swift in Sources */,
+				21FEB3062BD78218003851A2 /* DashboardInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		21FEB2EF2BD77ED0003851A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				21FEB2F02BD77ED0003851A2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		21FEB2F42BD77ED1003851A2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -202,6 +290,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -262,6 +351,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -291,7 +381,7 @@
 				INFOPLIST_FILE = RenterMngr/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +408,7 @@
 				INFOPLIST_FILE = RenterMngr/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
