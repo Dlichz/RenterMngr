@@ -14,6 +14,7 @@
 		2114A8FC2BD89A160058D70B /* TenantInfoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2114A8FA2BD89A160058D70B /* TenantInfoViewCell.swift */; };
 		2114A8FD2BD89A160058D70B /* TenantInfoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2114A8FB2BD89A160058D70B /* TenantInfoViewCell.xib */; };
 		2114A9072BD8C5560058D70B /* TenantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2114A9062BD8C5560058D70B /* TenantListViewController.swift */; };
+		21515C032BDE074C00684066 /* TenantInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21515C022BDE074C00684066 /* TenantInfoCell.swift */; };
 		2151DBB52BDABAE100BA56CD /* SearcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2151DBB42BDABAE100BA56CD /* SearcherView.swift */; };
 		21FEB2EA2BD77ED0003851A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FEB2E92BD77ED0003851A2 /* AppDelegate.swift */; };
 		21FEB2EC2BD77ED0003851A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FEB2EB2BD77ED0003851A2 /* SceneDelegate.swift */; };
@@ -35,6 +36,7 @@
 		2114A8FA2BD89A160058D70B /* TenantInfoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantInfoViewCell.swift; sourceTree = "<group>"; };
 		2114A8FB2BD89A160058D70B /* TenantInfoViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TenantInfoViewCell.xib; sourceTree = "<group>"; };
 		2114A9062BD8C5560058D70B /* TenantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantListViewController.swift; sourceTree = "<group>"; };
+		21515C022BDE074C00684066 /* TenantInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantInfoCell.swift; sourceTree = "<group>"; };
 		2151DBB42BDABAE100BA56CD /* SearcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearcherView.swift; sourceTree = "<group>"; };
 		21FEB2E62BD77ED0003851A2 /* RenterMngr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RenterMngr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FEB2E92BD77ED0003851A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				2114A8FB2BD89A160058D70B /* TenantInfoViewCell.xib */,
 				2114A9062BD8C5560058D70B /* TenantListViewController.swift */,
 				2151DBB42BDABAE100BA56CD /* SearcherView.swift */,
+				21515C022BDE074C00684066 /* TenantInfoCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				2114A9072BD8C5560058D70B /* TenantListViewController.swift in Sources */,
 				21FEB3042BD78218003851A2 /* DashboardViewController.swift in Sources */,
 				2114A8EF2BD8874B0058D70B /* TenantListProtocols.swift in Sources */,
+				21515C032BDE074C00684066 /* TenantInfoCell.swift in Sources */,
 				21FEB2EA2BD77ED0003851A2 /* AppDelegate.swift in Sources */,
 				21FEB3052BD78218003851A2 /* DashboardProtocols.swift in Sources */,
 				21FEB3032BD78218003851A2 /* DashboardRouter.swift in Sources */,
